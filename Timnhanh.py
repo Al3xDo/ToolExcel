@@ -7,8 +7,8 @@ import re
 exname=input()
 print('Nhập tên sheet, để trống sẽ mặc định là Sheet1')
 sheetname=input()'''
-exname = Xuat.xlsx
-sheetname = Sheet1
+exname = 'Xuat.xlsx'
+sheetname = 'Sheet1'
 # set up excel
 kihieu = re.compile(r'''
 ^(\w{1,4}\d{2,4}) # ma so
